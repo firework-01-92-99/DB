@@ -8878,7 +8878,7 @@ CREATE TABLE IF NOT EXISTS `firework`.`posting` (
   `startTime` VARCHAR(45) NOT NULL,
   `endTime` VARCHAR(45) NOT NULL,
   `properties` VARCHAR(45) NULL,
-  `welfare` VARCHAR(500) NOT NULL,
+  `welfare` VARCHAR(700) NOT NULL,
   `employer_idEmployer` INT NOT NULL,
   `status_idStatus` INT NOT NULL,
   `WorkerType_idWorkerType` INT NOT NULL,
