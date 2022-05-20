@@ -1228,7 +1228,7 @@ DROP TABLE IF EXISTS `firework`.`sub_district` ;
 
 CREATE TABLE IF NOT EXISTS `firework`.`sub_district` (
   `idSubdistrict` VARCHAR(6) NOT NULL,
-  `subDistrict` VARCHAR(45) NOT NULL,
+  `subDistrict` VARCHAR(200) NOT NULL,
   `postcode` VARCHAR(5) NOT NULL,
   `district_idDistrict` VARCHAR(4) NOT NULL,
   PRIMARY KEY (`idSubdistrict`),
