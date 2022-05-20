@@ -8847,7 +8847,7 @@ DROP TABLE IF EXISTS `firework`.`hiring_type` ;
 
 CREATE TABLE IF NOT EXISTS `firework`.`hiring_type` (
   `idHiringtype` INT NOT NULL,
-  `nameType` VARCHAR(20) NOT NULL,
+  `nameType` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`idHiringtype`))
 ENGINE = InnoDB;
 
@@ -8868,7 +8868,7 @@ DROP TABLE IF EXISTS `firework`.`posting` ;
 
 CREATE TABLE IF NOT EXISTS `firework`.`posting` (
   `idPosting` INT NOT NULL AUTO_INCREMENT,
-  `sex` VARCHAR(6) NOT NULL,
+  `sex` VARCHAR(1) NOT NULL,
   `workDescription` VARCHAR(400) NOT NULL,
   `minAge` INT(3) NOT NULL,
   `maxAge` INT(3) NOT NULL,
@@ -8917,7 +8917,7 @@ CREATE TABLE IF NOT EXISTS `firework`.`posting` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`,`employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (1,'หญิง','1. เช็ดทำความสะอาดสิ่งของ
+INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`,`employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (1,'F','1. เช็ดทำความสะอาดสิ่งของ
 2. กวาดพื้นถูพื้น
 3. ทำงานต่าง ๆ ที่ได้รับมอบหมาย',35,45,14500,22000,'y','9:00','18:00',NULL,'- พนักงานมีส่วนลดค่าอาหารพนักงาน 50% ภายในร้านไหตี่เลาทุกสาขาทั่วโลก
 - พนักงานมีอาหารฟรี 2 มื้อต่อวัน ( บางตำแหน่ง )
@@ -8927,7 +8927,7 @@ INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`mi
 - โบนัสแนะนำพนักงาน, โบนัสอาวุโส, อื่นๆ
 - ของขวัญวันเกิด
 - ชุดยูนิฟอร์ม ( บางตำแหน่ง )',1,1,1,1,1);
-INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`,`employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (2,'ชาย','1. ประกอบอาหาร
+INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`,`employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (2,'M','1. ประกอบอาหาร
 2. จัดเตรียมวัตถุดิบในการประกอบอาหาร ตลอดจนภาชนะ เครื่องใช้ในครัว
 3. ควบคุมดูแลรักษาความสะอาดบริเวณที่ประกอบอาหาร
 4. จัดสต๊อกและวัตถุดิบในการประกอบอาหาร
@@ -8936,7 +8936,7 @@ INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`mi
 - ค่ายานพาหนะ
 - ตามข้อตกลงของบริษัท
 - เงินโบนัสตามผลงาน',1,1,1,3,2);
-INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`,`employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (3,'ทุกเพศ','1. จัดสถานที่และทำความสะอาดก่อนเปิดร้าน
+INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`,`employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (3,'A','1. จัดสถานที่และทำความสะอาดก่อนเปิดร้าน
 2. ต้อนรับลูกค้าด้วยรอยยิ้มอยู่เสมอ
 3. รับออเดอร์และเสิร์ฟอาหาร เครื่องดื่ม
 4. ดูแลเซอร์วิส ให้ความช่อยเหลือลูกค้า
@@ -8974,7 +8974,7 @@ DROP TABLE IF EXISTS `firework`.`day` ;
 
 CREATE TABLE IF NOT EXISTS `firework`.`day` (
   `idDay` INT NOT NULL AUTO_INCREMENT,
-  `dayName` VARCHAR(10) NOT NULL,
+  `dayName` VARCHAR(45) NOT NULL,
   `abbreviation` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`idDay`))
 ENGINE = InnoDB;
