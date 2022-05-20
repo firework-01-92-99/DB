@@ -138,7 +138,7 @@ CREATE TABLE IF NOT EXISTS `firework`.`admin` (
   INDEX `fk_admin_role1_idx` (`role_idRole` ASC) VISIBLE,
   CONSTRAINT `fk_admin_role1`
     FOREIGN KEY (`role_idRole`)
-    REFERENCES `mydb`.`role` (`idRole`)
+    REFERENCES `firework`.`role` (`idRole`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -266,8 +266,8 @@ CREATE TABLE IF NOT EXISTS `firework`.`worker` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-INSERT INTO `worker` (`idWorker`,`IdentificationNumber`,`verifyPic`,`sex`,`firstName`,`middleName`,`lastName`,`phone`,`account_idAccount`,`WorkerType_idWorkerType`) VALUES (1,'MC576508','1234','F','ซิ่น','เมียท','อู','0912345678',3,1);
-INSERT INTO `worker` (`idWorker`,`IdentificationNumber`,`verifyPic`,`sex`,`firstName`,`middleName`,`lastName`,`phone`,`account_idAccount`,`WorkerType_idWorkerType`) VALUES (2,'1100211111111','2345','M','รักชาติ',NULL,'ศาสนา','0999999999',4,2);
+INSERT INTO `worker` (`idWorker`,`IdentificationNumber`,`verifyPic`,`sex`,`firstName`,`middleName`,`lastName`,`phone`,`account_idAccount`,`WorkerType_idWorkerType`) VALUES (1,'MC576508','1234','หญิง','ซิ่น','เมียท','อู','0912345678',3,1);
+INSERT INTO `worker` (`idWorker`,`IdentificationNumber`,`verifyPic`,`sex`,`firstName`,`middleName`,`lastName`,`phone`,`account_idAccount`,`WorkerType_idWorkerType`) VALUES (2,'1100211111111','2345','ชาย','รักชาติ',NULL,'ศาสนา','0999999999',4,2);
 -- -----------------------------------------------------
 -- Table `firework`.`district`
 -- -----------------------------------------------------
@@ -287,7 +287,7 @@ CREATE TABLE IF NOT EXISTS `firework`.`district` (
 ENGINE = InnoDB;
 
 /*
--- Query: SELECT * FROM mydb.district
+-- Query: SELECT * FROM firework.district
 LIMIT 0, 1000
 
 -- Date: 2022-02-26 20:33
@@ -1241,7 +1241,7 @@ CREATE TABLE IF NOT EXISTS `firework`.`sub_district` (
 ENGINE = InnoDB;
 
 /*
--- Query: SELECT * FROM mydb.sub_district
+-- Query: SELECT * FROM firework.sub_district
 LIMIT 0, 50000
 
 -- Date: 2022-02-26 21:23
@@ -8852,7 +8852,7 @@ CREATE TABLE IF NOT EXISTS `firework`.`hiring_type` (
 ENGINE = InnoDB;
 
 /*
--- Query: SELECT * FROM mydb.hiring_type
+-- Query: SELECT * FROM firework.hiring_type
 LIMIT 0, 1000
 
 -- Date: 2022-02-26 20:36
@@ -8892,27 +8892,27 @@ CREATE TABLE IF NOT EXISTS `firework`.`posting` (
   INDEX `fk_posting_position1_idx` (`position_idposition` ASC) VISIBLE,
   CONSTRAINT `fk_posting_employer1`
     FOREIGN KEY (`employer_idEmployer`)
-    REFERENCES `mydb`.`employer` (`idEmployer`)
+    REFERENCES `firework`.`employer` (`idEmployer`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_posting_status1`
     FOREIGN KEY (`status_idStatus`)
-    REFERENCES `mydb`.`status` (`idStatus`)
+    REFERENCES `firework`.`status` (`idStatus`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_posting_WorkerType1`
     FOREIGN KEY (`WorkerType_idWorkerType`)
-    REFERENCES `mydb`.`worker_type` (`idWorkerType`)
+    REFERENCES `firework`.`worker_type` (`idWorkerType`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_posting_hiring_type1`
     FOREIGN KEY (`hiring_type_idHiringtype`)
-    REFERENCES `mydb`.`hiring_type` (`idHiringtype`)
+    REFERENCES `firework`.`hiring_type` (`idHiringtype`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_posting_position1`
     FOREIGN KEY (`position_idposition`)
-    REFERENCES `mydb`.`position` (`idposition`)
+    REFERENCES `firework`.`position` (`idposition`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -8958,7 +8958,7 @@ CREATE TABLE IF NOT EXISTS `firework`.`position` (
   INDEX `fk_position_employer1_idx` (`employer_idEmployer` ASC) VISIBLE,
   CONSTRAINT `fk_position_employer1`
     FOREIGN KEY (`employer_idEmployer`)
-    REFERENCES `mydb`.`employer` (`idEmployer`)
+    REFERENCES `firework`.`employer` (`idEmployer`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -8980,7 +8980,7 @@ CREATE TABLE IF NOT EXISTS `firework`.`day` (
 ENGINE = InnoDB;
 
 /*
--- Query: SELECT * FROM mydb.day
+-- Query: SELECT * FROM firework.day
 LIMIT 0, 1000
 
 -- Date: 2022-02-26 20:38
