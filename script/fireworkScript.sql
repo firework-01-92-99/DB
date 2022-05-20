@@ -8690,7 +8690,7 @@ DROP TABLE IF EXISTS `firework`.`businessType` ;
 
 CREATE TABLE IF NOT EXISTS `firework`.`businessType` (
   `idBusinessType` INT NOT NULL AUTO_INCREMENT,
-  `nameType` VARCHAR(200) NOT NULL COMMENT 'ประเภทการธุรกิจของบริษัท',
+  `nameType` VARCHAR(300) NOT NULL COMMENT 'ประเภทการธุรกิจของบริษัท',
   PRIMARY KEY (`idBusinessType`),
   UNIQUE INDEX `nameType_UNIQUE` (`nameType` ASC) VISIBLE)
 ENGINE = InnoDB;
