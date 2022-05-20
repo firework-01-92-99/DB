@@ -8869,7 +8869,7 @@ DROP TABLE IF EXISTS `firework`.`posting` ;
 CREATE TABLE IF NOT EXISTS `firework`.`posting` (
   `idPosting` INT NOT NULL AUTO_INCREMENT,
   `sex` VARCHAR(1) NOT NULL,
-  `workDescription` VARCHAR(400) NOT NULL,
+  `workDescription` VARCHAR(1000) NOT NULL,
   `minAge` INT(3) NOT NULL,
   `maxAge` INT(3) NOT NULL,
   `minSalary` INT(7) NOT NULL,
