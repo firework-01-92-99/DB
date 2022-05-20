@@ -1,0 +1,23 @@
+version: '3'
+services:
+  database:
+    container_name: fireworkDB
+    build: .
+    image: database
+    environment: 
+      MYSQL_ROOT_USER: root
+      MYSQL_ROOT_PASSWORD: flukefriendbest
+      MYSQL_DATABASE: firework
+    volumes:
+      - "./script/fireworkScript.sql:/docker-entrypoint-initdb.d/fireworkScript.sql"
+    ports:
+      - "3306:3306"
+    networks:
+       NETWORK:
+          ipv4_address: 172.21.0.13
+networks:
+  default:
+    external:
+       name: NETWORK
+  NETWORK:
+    external: true
