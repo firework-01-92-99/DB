@@ -266,8 +266,8 @@ CREATE TABLE IF NOT EXISTS `firework`.`worker` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-INSERT INTO `worker` (`idWorker`,`IdentificationNumber`,`verifyPic`,`sex`,`firstName`,`middleName`,`lastName`,`phone`,`account_idAccount`,`WorkerType_idWorkerType`) VALUES (1,'MC576508','1234','หญิง','ซิ่น','เมียท','อู','0912345678',3,1);
-INSERT INTO `worker` (`idWorker`,`IdentificationNumber`,`verifyPic`,`sex`,`firstName`,`middleName`,`lastName`,`phone`,`account_idAccount`,`WorkerType_idWorkerType`) VALUES (2,'1100211111111','2345','ชาย','รักชาติ',NULL,'ศาสนา','0999999999',4,2);
+INSERT INTO `worker` (`idWorker`,`IdentificationNumber`,`verifyPic`,`sex`,`firstName`,`middleName`,`lastName`,`phone`,`account_idAccount`,`WorkerType_idWorkerType`) VALUES (1,'MC576508','1234','F','ซิ่น','เมียท','อู','0912345678',3,1);
+INSERT INTO `worker` (`idWorker`,`IdentificationNumber`,`verifyPic`,`sex`,`firstName`,`middleName`,`lastName`,`phone`,`account_idAccount`,`WorkerType_idWorkerType`) VALUES (2,'1100211111111','2345','M','รักชาติ',NULL,'ศาสนา','0999999999',4,2);
 -- -----------------------------------------------------
 -- Table `firework`.`district`
 -- -----------------------------------------------------
