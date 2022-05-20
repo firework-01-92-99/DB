@@ -275,7 +275,7 @@ DROP TABLE IF EXISTS `firework`.`district` ;
 
 CREATE TABLE IF NOT EXISTS `firework`.`district` (
   `idDistrict` VARCHAR(4) NOT NULL,
-  `districtName` VARCHAR(100) NOT NULL,
+  `districtName` VARCHAR(200) NOT NULL,
   `province_idProvince` VARCHAR(2) NOT NULL,
   PRIMARY KEY (`idDistrict`, `province_idProvince`),
   INDEX `fk_district_province1_idx` (`province_idProvince` ASC) VISIBLE,
