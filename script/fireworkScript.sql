@@ -8928,7 +8928,7 @@ DROP TABLE IF EXISTS `firework`.`position` ;
 
 CREATE TABLE IF NOT EXISTS `firework`.`position` (
   `idposition` INT NOT NULL AUTO_INCREMENT,
-  `positionName` VARCHAR(45) NOT NULL,
+  `positionName` VARCHAR(300) NOT NULL,
   `employer_idEmployer` INT NOT NULL,
   PRIMARY KEY (`idposition`, `employer_idEmployer`),
   INDEX `fk_position_employer1_idx` (`employer_idEmployer` ASC) VISIBLE,
