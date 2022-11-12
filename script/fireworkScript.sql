@@ -211,6 +211,19 @@ INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (1,
 INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (2,1,4);
 INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (3,1,4);
 INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (4,1,4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (5, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (6, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (7, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (8, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (9, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (10, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (11, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (12, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (13, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (14, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (15, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (16, 1, 4);
+INSERT INTO `approve` (`idApprove`,`admin_idAdmin`,`status_idStatus`) VALUES (17, 1, 4);
 
 -- -----------------------------------------------------
 -- Table `firework`.`account`
@@ -242,6 +255,19 @@ INSERT INTO `account` (`idAccount`,`email`,`password`,`role_idRole`,`approve_idA
 INSERT INTO `account` (`idAccount`,`email`,`password`,`role_idRole`,`approve_idApprove`) VALUES (2,'lambchop@gmail.com','$2a$10$bG9qHXsqYHTVAaqWtxy0FuIocu57yyoxUBWqy4PCzCOEsfmWQM2Lq',2,2);
 INSERT INTO `account` (`idAccount`,`email`,`password`,`role_idRole`,`approve_idApprove`) VALUES (3,'stardust@gmail.com','$2a$10$e9W4EN0yx22pKqofD5dNmOtZJa0XbtoR/ePj7qVMRHDQs8cJqRP/a',3,3);
 INSERT INTO `account` (`idAccount`,`email`,`password`,`role_idRole`,`approve_idApprove`) VALUES (4,'thailand@gmail.com','$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu',3,4);
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('5', 'test1@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '5');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('6', 'test2@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '6');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('7', 'test3@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '7');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('8', 'test4@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '8');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('9', 'test5@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '9');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('10', 'test6@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '10');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('11', 'test7@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '11');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('12', 'test8@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '12');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('13', 'test9@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '13');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('14', 'test10@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '14');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('15', 'test11@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '15');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('16', 'test12@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '16');
+INSERT INTO `account` (`idAccount`, `email`, `password`, `role_idRole`, `approve_idApprove`) VALUES ('17', 'test13@gmail.com', '$2a$10$g5fiz9XkhEUipSPFSHFFyOt.AFcCzI3ijKGqtUP34j4GaXkeamWhu', '2', '17');
 
 -- -----------------------------------------------------
 -- Table `firework`.`worker_type`
@@ -8854,6 +8880,19 @@ CREATE TABLE IF NOT EXISTS `firework`.`employer` (
 ENGINE = InnoDB;
 
 INSERT INTO `employer` (`idEmployer`,`establishmentName`,`entrepreneurfName`,`entrepreneurlName`,`address`,`tel`,`phone`,`email`,`lineId`,`profile`, `rate`, `account_idAccount`,`businessType_idBusinessType`,`province_idProvince`,`district_idDistrict`,`sub_district_idSubdistrict`, `nationality_idnationality`) VALUES (1,'lightning co., ltd.','Flash','Fastest','ซอย 1 55','021212121','0912345678','lambchop@gmail.com','light12345','logo-lightning.jpg', NULL,'2',24,10,1001,100101,1);
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('2', 'test1 co., ltd.', 'test1', 'testest1', 'ซอยทดสอบ 1', '022222221', '0912345671', 'test1@gmail.com', 'test1', 'logo-1.png', '5', '2', '11', '1101', '110101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('3', 'test2 co., ltd.', 'test2', 'testest2', 'ซอยทดสอบ 2', '022222222', '0912345672', 'test2@gmail.com', 'test2', 'logo-2.png', '6', '3', '12', '1201', '120101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('4', 'test3 co., ltd.', 'test3', 'testest3', 'ซอยทดสอบ 3', '022222223', '0912345673', 'test3@gmail.com', 'test3', 'logo-3.png', '7', '4', '13', '1301', '130101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('5', 'test4 co., ltd.', 'test4', 'testest4', 'ซอยทดสอบ 4', '022222224', '0912345674', 'test4@gmail.com', 'test4', 'logo-4.png', '8', '5', '14', '1401', '140101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('6', 'test5 co., ltd.', 'test5', 'testest5', 'ซอยทดสอบ 5', '022222225', '0912345675', 'test5@gmail.com', 'test5', 'logo-5.png', '9', '6', '15', '1501', '150101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('7', 'test6 co., ltd.', 'test6', 'testest6', 'ซอยทดสอบ 6', '022222226', '0912345676', 'test6@gmail.com', 'test6', 'logo-6.png', '10', '7', '16', '1601', '160101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('8', 'test7 co., ltd.', 'test7', 'testest7', 'ซอยทดสอบ 7', '022222227', '0912345677', 'test7@gmail.com', 'test7', 'logo-7.png', '11', '8', '17', '1701', '170101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('9', 'test8 co., ltd.', 'test8', 'testest8', 'ซอยทดสอบ 8', '022222228', '0912345678', 'test8@gmail.com', 'test8', 'logo-8.png', '12', '9', '18', '1801', '180101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('10', 'test9 co., ltd.', 'test9', 'testest9', 'ซอยทดสอบ 9', '022222229', '0912345679', 'test9@gmail.com', 'test9', 'logo-9.png', '13', '10', '19', '1901', '190101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('11', 'test10 co., ltd.', 'test10', 'testest10', 'ซอยทดสอบ 10', '010222229', '0912345610', 'test10@gmail.com', 'test10', 'logo-10.png', '14', '11', '20', '2001', '200101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('12', 'test11 co., ltd.', 'test11', 'testest11', 'ซอยทดสอบ 11', '011222229', '0912345611', 'test11@gmail.com', 'test11', 'logo-11.png', '15', '12', '21', '2101', '210101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('13', 'test12 co., ltd.', 'test12', 'testest12', 'ซอยทดสอบ 12', '012222229', '0912345612', 'test12@gmail.com', 'test12', 'logo-12.png', '16', '13', '22', '2201', '220101', '1');
+INSERT INTO `employer` (`idEmployer`, `establishmentName`, `entrepreneurfName`, `entrepreneurlName`, `address`, `tel`, `phone`, `email`, `lineId`, `profile`, `account_idAccount`, `businessType_idBusinessType`, `province_idProvince`, `district_idDistrict`, `sub_district_idSubdistrict`, `nationality_idnationality`) VALUES ('14', 'test13 co., ltd.', 'test13', 'testest13', 'ซอยทดสอบ 13', '013222229', '0912345613', 'test13@gmail.com', 'test13', 'logo-13.png', '17', '14', '23', '2301', '230101', '1');
 
 -- -----------------------------------------------------
 -- Table `firework`.`edit_employer`
@@ -8973,21 +9012,21 @@ DROP TABLE IF EXISTS `firework`.`position` ;
 CREATE TABLE IF NOT EXISTS `firework`.`position` (
   `idposition` INT NOT NULL AUTO_INCREMENT,
   `positionName` VARCHAR(300) NOT NULL,
-  `employer_idEmployer` INT NOT NULL,
-  PRIMARY KEY (`idposition`, `employer_idEmployer`),
-  INDEX `fk_position_employer1_idx` (`employer_idEmployer` ASC) VISIBLE,
-  CONSTRAINT `fk_position_employer1`
-    FOREIGN KEY (`employer_idEmployer`)
-    REFERENCES `firework`.`employer` (`idEmployer`)
+  `status_idStatus` INT NOT NULL,
+  PRIMARY KEY (`idposition`, `status_idStatus`),
+  INDEX `fk_position_status1_idx` (`status_idStatus` ASC) VISIBLE,
+  CONSTRAINT `fk_position_status1`
+    FOREIGN KEY (`status_idStatus`)
+    REFERENCES `firework`.`status` (`idStatus`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-INSERT INTO `position` (`idposition`,`positionName`,`employer_idEmployer`) VALUES (1,'แม่บ้าน',1);
-INSERT INTO `position` (`idposition`,`positionName`,`employer_idEmployer`) VALUES (2,'พ่อครัว',1);
-INSERT INTO `position` (`idposition`,`positionName`,`employer_idEmployer`) VALUES (3,'พนักงานเสิร์ฟ',1);
-INSERT INTO `position` (`idposition`,`positionName`,`employer_idEmployer`) VALUES (4,'พนักงานส่งอาหาร (ไรเดอร์)',1);
-INSERT INTO `position` (`idposition`,`positionName`,`employer_idEmployer`) VALUES (5,'พ่อบ้าน',1);
+INSERT INTO `position` (`idposition`,`positionName`,`status_idStatus`) VALUES (1,'แม่บ้าน',1);
+INSERT INTO `position` (`idposition`,`positionName`,`status_idStatus`) VALUES (2,'พ่อครัว',1);
+INSERT INTO `position` (`idposition`,`positionName`,`status_idStatus`) VALUES (3,'พนักงานเสิร์ฟ',1);
+INSERT INTO `position` (`idposition`,`positionName`,`status_idStatus`) VALUES (4,'พนักงานส่งอาหาร (ไรเดอร์)',1);
+INSERT INTO `position` (`idposition`,`positionName`,`status_idStatus`) VALUES (5,'พ่อบ้าน',2);
 
 -- -----------------------------------------------------
 -- Table `firework`.`posting`
@@ -9007,6 +9046,7 @@ CREATE TABLE IF NOT EXISTS `firework`.`posting` (
   `endTime` VARCHAR(45) NOT NULL,
   `properties` VARCHAR(45) NULL,
   `welfare` VARCHAR(2000) NOT NULL,
+  `date` DATE NOT NULL,
   `employer_idEmployer` INT NOT NULL,
   `status_idStatus` INT NOT NULL,
   `WorkerType_idWorkerType` INT NOT NULL,
@@ -9045,11 +9085,11 @@ CREATE TABLE IF NOT EXISTS `firework`.`posting` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`,`employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (1,'F','<ul style="list-style-type:disc"> <li> เช็ดทำความสะอาดสิ่งของ </li> <li> กวาดพื้นถูพื้น </li> <li> ทำงานต่าง ๆ ที่ได้รับมอบหมาย </li> </ul>',35,45,14500,22000,'y','9:00','18:00',NULL,'<ul style="list-style-type:disc"> <li> พนักงานมีส่วนลดค่าอาหารพนักงาน 50% ภายในร้านไหตี่เลาทุกสาขาทั่วโลก </li> <li> พนักงานมีอาหารฟรี 2 มื้อต่อวัน ( บางตำแหน่ง )</li> <li> โบนัสเบี้ยขยัน, ค่าพาหนะเดินทาง, ค่าล่วงเวลา</li> <li> ประกันสังคม, ตรวจสุขภาพประจำปี</li> <li> ส่งเสริมสนับสนุนการฝึกอบรมพนักงาน ทั้งในต่างประเทศและต่างประเทศ</li> <li> โบนัสแนะนำพนักงาน, โบนัสอาวุโส, อื่นๆ</li> <li> ของขวัญวันเกิด</li> <li> ชุดยูนิฟอร์ม ( บางตำแหน่ง )</li> </ul>',1,1,1,1,1);
-INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`,`employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (2,'M','<ul style="list-style-type:disc"> <li> ประกอบอาหาร </li> <li> จัดเตรียมวัตถุดิบในการประกอบอาหาร ตลอดจนภาชนะ เครื่องใช้ในครัว </li> <li> ควบคุมดูแลรักษาความสะอาดบริเวณที่ประกอบอาหาร </li> <li> จัดสต๊อกและวัตถุดิบในการประกอบอาหาร </li> <li> งานอื่นๆตามที่ได้รับมอบหมาย </li> </ul>',20,35,12000,15000,'n','9:00','18:00',NULL,'<ul style="list-style-type:disc"> <li> ประกันสังคม</li> <li> ค่าใช้จ่ายในการเดินทาง</li> <li> ค่ายานพาหนะ</li> <li> ตามข้อตกลงของบริษัท</li> <li> เงินโบนัสตามผลงาน</li> </ul>',1,1,1,3,2);
-INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`,`employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (3,'A','<ul style="list-style-type:disc"> <li> จัดสถานที่และทำความสะอาดก่อนเปิดร้าน </li> <li> ต้อนรับลูกค้าด้วยรอยยิ้มอยู่เสมอ </li> <li> รับออเดอร์และเสิร์ฟอาหาร เครื่องดื่ม </li> <li> ดูแลเซอร์วิส ให้ความช่อยเหลือลูกค้า </li> <li> เก็บและทำความสะอาดร้านหลังปิดให้บริการ </li> </ul>',25,40,300,350,'n','9:00','18:00',NULL,'<ul style="list-style-type:disc"> <li> บุคลิกร่าเริงแจ่มใส</li> <li> กล้าแสดงออก</li> <li> ช่างสังเกตผู้คน</li> <li> มีความกระตื่อรือร้น</li> <li> พร้อมเรียนอยู่สิ่งใหม่ ๆ เพื่อพัฒนาตนเองอยู่เสมอ</li> </ul>',1,1,2,2,3);
-INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`,`employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (4,'A','<ul style="list-style-type:disc"> <li> ส่งอาหารตามออร์เดอร์ </li> <li> งานอื่นๆ ที่ได้รับมอบหมาย </li> </ul>',18,50,11000,13500,'n','7:00','22:00',NULL,'<ul style="list-style-type:disc"> <li> ประกันสังคม</li> <li> ค่าตอบแทนพิเศษ</li> <li> เงินโบนัสตามผลงาน</li> <li> ทำงานเป็นกะ</li> </ul>',1,1,1,3,4);
-INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`,`employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (5,'M','<ul style="list-style-type:disc"> <li> ทำความสะอาดภายในโรงานและออฟฟิศสำนักงาน </li> <li> งานอื่นๆ ที่ได้รับมอบหมาย </li> </ul>',25,36,9500,10500,'n','7:30','17:30',NULL,'<ul style="list-style-type:disc"> <li> ประกันสังคม</li> </ul>',1,2,3,3,5);
+INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`, `date`, `employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (1,'F','<ul style="list-style-type:disc"> <li> เช็ดทำความสะอาดสิ่งของ </li> <li> กวาดพื้นถูพื้น </li> <li> ทำงานต่าง ๆ ที่ได้รับมอบหมาย </li> </ul>',35,45,14500,22000,'y','9:00','18:00',NULL,'<ul style="list-style-type:disc"> <li> พนักงานมีส่วนลดค่าอาหารพนักงาน 50% ภายในร้านไหตี่เลาทุกสาขาทั่วโลก </li> <li> พนักงานมีอาหารฟรี 2 มื้อต่อวัน ( บางตำแหน่ง )</li> <li> โบนัสเบี้ยขยัน, ค่าพาหนะเดินทาง, ค่าล่วงเวลา</li> <li> ประกันสังคม, ตรวจสุขภาพประจำปี</li> <li> ส่งเสริมสนับสนุนการฝึกอบรมพนักงาน ทั้งในต่างประเทศและต่างประเทศ</li> <li> โบนัสแนะนำพนักงาน, โบนัสอาวุโส, อื่นๆ</li> <li> ของขวัญวันเกิด</li> <li> ชุดยูนิฟอร์ม ( บางตำแหน่ง )</li> </ul>', '2021-01-01',1,1,1,1,1);
+INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`, `date`, `employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (2,'M','<ul style="list-style-type:disc"> <li> ประกอบอาหาร </li> <li> จัดเตรียมวัตถุดิบในการประกอบอาหาร ตลอดจนภาชนะ เครื่องใช้ในครัว </li> <li> ควบคุมดูแลรักษาความสะอาดบริเวณที่ประกอบอาหาร </li> <li> จัดสต๊อกและวัตถุดิบในการประกอบอาหาร </li> <li> งานอื่นๆตามที่ได้รับมอบหมาย </li> </ul>',20,35,12000,15000,'n','9:00','18:00',NULL,'<ul style="list-style-type:disc"> <li> ประกันสังคม</li> <li> ค่าใช้จ่ายในการเดินทาง</li> <li> ค่ายานพาหนะ</li> <li> ตามข้อตกลงของบริษัท</li> <li> เงินโบนัสตามผลงาน</li> </ul>', '2021-01-01', 1,1,1,3,2);
+INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`, `date`, `employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (3,'A','<ul style="list-style-type:disc"> <li> จัดสถานที่และทำความสะอาดก่อนเปิดร้าน </li> <li> ต้อนรับลูกค้าด้วยรอยยิ้มอยู่เสมอ </li> <li> รับออเดอร์และเสิร์ฟอาหาร เครื่องดื่ม </li> <li> ดูแลเซอร์วิส ให้ความช่อยเหลือลูกค้า </li> <li> เก็บและทำความสะอาดร้านหลังปิดให้บริการ </li> </ul>',25,40,300,350,'n','9:00','18:00',NULL,'<ul style="list-style-type:disc"> <li> บุคลิกร่าเริงแจ่มใส</li> <li> กล้าแสดงออก</li> <li> ช่างสังเกตผู้คน</li> <li> มีความกระตื่อรือร้น</li> <li> พร้อมเรียนอยู่สิ่งใหม่ ๆ เพื่อพัฒนาตนเองอยู่เสมอ</li> </ul>', '2021-01-01', 1,1,2,2,3);
+INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`, `date`, `employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (4,'A','<ul style="list-style-type:disc"> <li> ส่งอาหารตามออร์เดอร์ </li> <li> งานอื่นๆ ที่ได้รับมอบหมาย </li> </ul>',18,50,11000,13500,'n','7:00','22:00',NULL,'<ul style="list-style-type:disc"> <li> ประกันสังคม</li> <li> ค่าตอบแทนพิเศษ</li> <li> เงินโบนัสตามผลงาน</li> <li> ทำงานเป็นกะ</li> </ul>', '2021-01-01', 1,1,1,3,4);
+INSERT INTO `posting` (`idPosting`,`sex`,`workDescription`,`minAge`,`maxAge`,`minSalary`,`maxSalary`,`overtimePayment`,`startTime`,`endTime`,`properties`,`welfare`, `date`, `employer_idEmployer`,`status_idStatus`,`WorkerType_idWorkerType`,`hiring_type_idHiringtype`,`position_idposition`) VALUES (5,'M','<ul style="list-style-type:disc"> <li> ทำความสะอาดภายในโรงานและออฟฟิศสำนักงาน </li> <li> งานอื่นๆ ที่ได้รับมอบหมาย </li> </ul>',25,36,9500,10500,'n','7:30','17:30',NULL,'<ul style="list-style-type:disc"> <li> ประกันสังคม</li> </ul>', '2021-01-01', 1,2,3,3,5);
 
 
 -- -----------------------------------------------------
@@ -9151,6 +9191,7 @@ DROP TABLE IF EXISTS `firework`.`application` ;
 CREATE TABLE IF NOT EXISTS `firework`.`application` (
   `idApplication` INT NOT NULL AUTO_INCREMENT,
   `idStatusAdmin` INT NULL,
+  `date` DATE NOT NULL,
   `worker_idWorker` INT NOT NULL,
   `posting_idPosting` INT NOT NULL,
   `admin_idAdmin` INT NULL,
@@ -9196,9 +9237,9 @@ CREATE TABLE IF NOT EXISTS `firework`.`application` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-INSERT INTO `application` (`idApplication`, `idStatusAdmin`, `worker_idWorker`, `posting_idPosting`, `admin_idAdmin`, `application_has_comment_idHasComment`, `status_idStatus`, `act_to_registrar_idaction`) VALUES (1, 0, 1, 1, 1, 1, 11, NULL);
-INSERT INTO `application` (`idApplication`, `idStatusAdmin`, `worker_idWorker`, `posting_idPosting`, `admin_idAdmin`, `application_has_comment_idHasComment`, `status_idStatus`, `act_to_registrar_idaction`) VALUES (2, 0, 1, 4, 1, 2, 12, NULL);
-INSERT INTO `application` (`idApplication`, `idStatusAdmin`, `worker_idWorker`, `posting_idPosting`, `admin_idAdmin`, `application_has_comment_idHasComment`, `status_idStatus`, `act_to_registrar_idaction`) VALUES (3, 0, 2, 5, 1, 3, 13, NULL);
+INSERT INTO `application` (`idApplication`, `idStatusAdmin`, `date`, `worker_idWorker`, `posting_idPosting`, `admin_idAdmin`, `application_has_comment_idHasComment`, `status_idStatus`, `act_to_registrar_idaction`) VALUES (1, 0, '2022-01-01', 1, 1, 1, 1, 11, NULL);
+INSERT INTO `application` (`idApplication`, `idStatusAdmin`, `date`, `worker_idWorker`, `posting_idPosting`, `admin_idAdmin`, `application_has_comment_idHasComment`, `status_idStatus`, `act_to_registrar_idaction`) VALUES (2, 0, '2022-01-01', 1, 4, 1, 2, 12, NULL);
+INSERT INTO `application` (`idApplication`, `idStatusAdmin`, `date`, `worker_idWorker`, `posting_idPosting`, `admin_idAdmin`, `application_has_comment_idHasComment`, `status_idStatus`, `act_to_registrar_idaction`) VALUES (3, 0, '2022-01-01', 2, 5, 1, 3, 13, NULL);
 
 -- -----------------------------------------------------
 -- Table `firework`.`ratings`
@@ -9213,9 +9254,11 @@ CREATE TABLE IF NOT EXISTS `firework`.`ratings` (
   `for_who` VARCHAR(45) NOT NULL,
   `employer_idEmployer` INT NOT NULL,
   `worker_idWorker` INT NOT NULL,
-  PRIMARY KEY (`idRating`, `employer_idEmployer`, `worker_idWorker`),
+  `posting_idPosting` INT NOT NULL,
+  PRIMARY KEY (`idRating`, `employer_idEmployer`, `worker_idWorker`, `posting_idPosting`),
   INDEX `fk_ratings_employer1_idx` (`employer_idEmployer` ASC) VISIBLE,
   INDEX `fk_ratings_worker1_idx` (`worker_idWorker` ASC) VISIBLE,
+  INDEX `fk_ratings_posting1_idx` (`posting_idPosting` ASC) VISIBLE,
   CONSTRAINT `fk_ratings_employer1`
     FOREIGN KEY (`employer_idEmployer`)
     REFERENCES `firework`.`employer` (`idEmployer`)
@@ -9224,6 +9267,11 @@ CREATE TABLE IF NOT EXISTS `firework`.`ratings` (
   CONSTRAINT `fk_ratings_worker1`
     FOREIGN KEY (`worker_idWorker`)
     REFERENCES `firework`.`worker` (`idWorker`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_ratings_posting1`
+    FOREIGN KEY (`posting_idPosting`)
+    REFERENCES `firework`.`posting` (`idPosting`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
